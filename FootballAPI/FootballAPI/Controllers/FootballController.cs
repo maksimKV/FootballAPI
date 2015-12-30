@@ -78,6 +78,7 @@ namespace FootballAPI.Controllers
                                 }
                                 else
                                 {
+                                    // Something is wrong with the link provided by the API
                                     return NotFound();
                                 }
                             }
@@ -95,6 +96,10 @@ namespace FootballAPI.Controllers
             }
         }
 
+
+        // I have abondened this method as it requires the user to know their team ID
+        // Which is quite difficult to get from the 3rd party API
+        /*
         [Route("team/{teamName}")]
         [HttpGet]
         public FootballTeam LeagueTeam(string teamName)
@@ -102,5 +107,6 @@ namespace FootballAPI.Controllers
             FootballTeam team = new FootballTeam { };
             return team;
         }
+        */
     }
 }
