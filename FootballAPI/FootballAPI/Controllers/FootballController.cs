@@ -7,12 +7,15 @@ using System.Web.Http;
 using FootballAPI.Models;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
+using log4net;
+using System.Reflection;
 
 namespace FootballAPI.Controllers
 {
     public class FootballController : ApiController
     { 
         public string apiURL = "http://api.football-data.org/";
+        private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         [Route("league/{leagueName}")]
         [HttpGet]
@@ -79,6 +82,7 @@ namespace FootballAPI.Controllers
                                 else
                                 {
                                     // Something is wrong with the link provided by the API
+                                    Log.Debug("Retrieved League ID was incorrect. Probably due to change in the third party API");
                                     return NotFound();
                                 }
                             }
@@ -86,11 +90,13 @@ namespace FootballAPI.Controllers
                     }
 
                     // Not found compared with user input. Probably user input is wrong
+                    Log.Debug("User input must have entered incorrect League ID. Input = " + leagueName);
                     return NotFound();
                 }
                 else
                 {
                     // Didn't get any result from their API
+                    Log.Debug("Could not establish a connection to the third party API");
                     return NotFound();
                 }
             }

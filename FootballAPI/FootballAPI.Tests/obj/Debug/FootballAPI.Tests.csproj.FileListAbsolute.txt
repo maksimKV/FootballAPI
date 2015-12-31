@@ -62,3 +62,5 @@ C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\Microsoft.Ow
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\obj\Debug\FootballAPI.Tests.csprojResolveAssemblyReference.cache
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\obj\Debug\FootballAPI.Tests.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\obj\Debug\FootballAPI.Tests.pdb
+C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\log4net.dll
+C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\log4net.xml

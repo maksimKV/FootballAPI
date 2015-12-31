@@ -1,0 +1,1 @@
+[2015-12-31 18:29:49] [DEBUG] [FootballAPI.Controllers.FootballController:93] - User input must have entered incorrect League ID. Input = champions

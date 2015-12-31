@@ -88,3 +88,5 @@ C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\bin\System.Web.Http.Owin.xml
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\obj\Debug\FootballAPI.csprojResolveAssemblyReference.cache
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\obj\Debug\FootballAPI.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\obj\Debug\FootballAPI.pdb
+C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\bin\log4net.dll
+C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI\bin\log4net.xml

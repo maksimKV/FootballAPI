@@ -7,6 +7,12 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
+//Log4Net
+using log4net;
+using log4net.Config;
+using log4net.Repository;
+using log4net.Repository.Hierarchy;
+
 namespace FootballAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
@@ -18,6 +24,8 @@ namespace FootballAPI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            XmlConfigurator.Configure();
         }
     }
 }
