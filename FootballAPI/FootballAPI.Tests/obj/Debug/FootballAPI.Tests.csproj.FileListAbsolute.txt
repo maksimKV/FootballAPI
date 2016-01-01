@@ -15,7 +15,6 @@ C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\FootballAPI.
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\FootballAPI.Tests.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\FootballAPI.Tests.pdb
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\FootballAPI.dll
-C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\xampp\htdocs\FootballAPI\FootballAPI\FootballAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
